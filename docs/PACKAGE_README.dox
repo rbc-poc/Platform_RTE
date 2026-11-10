@@ -226,5 +226,5 @@ project(RteFramework VERSION 0.1.0)
 
 \section platformrte_docs_PACKAGE_README_questions Questions?
 
-See \ref platformrte_docs_INTEGRATION "docs/INTEGRATION.dox" for detailed integration examples, or <a href="https://github.com/bula173/Platform_RTE/blob/master/CLAUDE.md">CLAUDE.md</a> for coding standards and safety practices.
+See \ref platformrte_docs_INTEGRATION "docs/INTEGRATION.dox" for detailed integration examples, or <a href="https://github.com/rbc-poc/Platform_RTE/blob/master/CLAUDE.md">CLAUDE.md</a> for coding standards and safety practices.
 */

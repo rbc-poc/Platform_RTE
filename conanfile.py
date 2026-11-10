@@ -16,7 +16,7 @@ class RTEFrameworkConan(ConanFile):
         "safe-state transitions, and a redundancy framework (channels/voting, "
         "checksums, checkpoints, clock sync)."
     )
-    url = "https://github.com/bula173/Platform_RTE"
+    url = "https://github.com/rbc-poc/Platform_RTE"
     package_type = "static-library"
     settings = "os", "compiler", "build_type", "arch"
 

@@ -6,7 +6,7 @@
 **Accepted (2026-10-02); steps 1 to 4 done; step 5 in progress (5a, 5b-1, 5b-2 and 5b-3a done, 5b-3b and 5c
 open).** How the service behaves as built is in the section "Service behaviour as built" below; the end-to-end system
 view (both sites, A and B, cross-compare, checkpoint) is RBC_GP's
-[Site redundancy and A/B agreement](https://github.com/bula173/RBC_GP/blob/master/docs/STANDBY_AND_SITE_LINK_ARCHITECTURE.dox). Plan for gap G1 of the root
+[Site redundancy and A/B agreement](https://github.com/rbc-poc/RBC_GP/blob/master/docs/STANDBY_AND_SITE_LINK_ARCHITECTURE.dox). Plan for gap G1 of the root
 `docs/architecture/CAPELLA_ARCHITECTURE_BASELINE.dox`. Decisions 1 and 2 below were taken by the product owner on
 2026-10-02 (the model overrides A3; drive points stay in the application cycle). Step 1 moved the pure policy
 (`rte_site_role_policy`, REQ-SITEROLE-001..004). Step 2 moved the mechanism: `rte_site_role` owns the inter-site
