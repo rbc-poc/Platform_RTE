@@ -9,10 +9,10 @@
 ///\subsection platformrte_docs_CM_REFERENCE_cmake_structure CMake Structure
 ///| CM Plan Section | Actual File | Purpose |
 ///|---|---|---|
-///| 3.1 - Root CMakeLists.txt | <a href="https://github.com/bula173/Platform_RTE/blob/master/CMakeLists.txt">CMakeLists.txt</a> | Main build definition, module iteration |
-///| 3.1 - Per-module CMakeLists.txt | <a href="https://github.com/bula173/Platform_RTE/tree/master/src">src/*/CMakeLists.txt</a> | Individual library definitions |
-///| 3.2 - CMake Presets | <a href="https://github.com/bula173/Platform_RTE/blob/master/CMakePresets.json">CMakePresets.json</a> | 12 standardized configurations |
-///| 3.3 - Toolchain files | <a href="https://github.com/bula173/Platform_RTE/tree/master/cmake">cmake/Toolchain-*.cmake</a> | POSIX, QNX, Linux, etc. |
+///| 3.1 - Root CMakeLists.txt | <a href="https://github.com/rbc-poc/Platform_RTE/blob/master/CMakeLists.txt">CMakeLists.txt</a> | Main build definition, module iteration |
+///| 3.1 - Per-module CMakeLists.txt | <a href="https://github.com/rbc-poc/Platform_RTE/tree/master/src">src/*/CMakeLists.txt</a> | Individual library definitions |
+///| 3.2 - CMake Presets | <a href="https://github.com/rbc-poc/Platform_RTE/blob/master/CMakePresets.json">CMakePresets.json</a> | 12 standardized configurations |
+///| 3.3 - Toolchain files | <a href="https://github.com/rbc-poc/Platform_RTE/tree/master/cmake">cmake/Toolchain-*.cmake</a> | POSIX, QNX, Linux, etc. |
 ///
 ///\subsection platformrte_docs_CM_REFERENCE_available_presets Available Presets
 ///```bash
@@ -36,9 +36,9 @@
 ///| CM Plan Section | Actual File | Purpose |
 ///|---|---|---|
 ///| 4.1 - Git setup | .git/config | User, email, core settings |
-///| 4.1 - Branch policy | <a href="https://github.com/bula173/Platform_RTE/tree/master/.">git</a> | main, develop, feature/*, release/* |
+///| 4.1 - Branch policy | <a href="https://github.com/rbc-poc/Platform_RTE/tree/master/.">git</a> | main, develop, feature/*, release/* |
 ///| 4.2 - Commit messages | .git/hooks | [See commit examples] |
-///| 4.3 - .gitignore | <a href="https://github.com/bula173/Platform_RTE/blob/master/.gitignore">.gitignore</a> | Exclude build, IDE, OS files |
+///| 4.3 - .gitignore | <a href="https://github.com/rbc-poc/Platform_RTE/blob/master/.gitignore">.gitignore</a> | Exclude build, IDE, OS files |
 ///
 ///\subsection platformrte_docs_CM_REFERENCE_standard_branch_workflow Standard Branch Workflow
 ///```
@@ -191,11 +191,11 @@
 ///
 ///| Type | Location | Update Frequency | Control |
 ///|------|----------|------------------|---------|
-///| Architecture | <a href="https://github.com/bula173/Platform_RTE/tree/master/docs/architecture">docs/architecture/</a> | Per phase gate | Git (ADR-*.md) |
-///| Requirements | <a href="https://github.com/bula173/Platform_RTE/tree/master/docs/requirements">docs/requirements/</a> | Per phase gate | Git (SRS.dox) |
+///| Architecture | <a href="https://github.com/rbc-poc/Platform_RTE/tree/master/docs/architecture">docs/architecture/</a> | Per phase gate | Git (ADR-*.md) |
+///| Requirements | <a href="https://github.com/rbc-poc/Platform_RTE/tree/master/docs/requirements">docs/requirements/</a> | Per phase gate | Git (SRS.dox) |
 ///| API Docs | Doxygen | Per commit | Auto from comments |
-///| Build Docs | <a href="https://github.com/bula173/RBC_Test_Sim_Train/blob/master/README.md">README.md</a> | Per release | Git |
-///| Safety Docs | <a href="https://github.com/bula173/Platform_RTE/tree/master/docs">docs/</a> | Per assessment | Git (approved docs) |
+///| Build Docs | <a href="https://github.com/rbc-poc/RBC_Test_Sim_Train/blob/master/README.md">README.md</a> | Per release | Git |
+///| Safety Docs | <a href="https://github.com/rbc-poc/Platform_RTE/tree/master/docs">docs/</a> | Per assessment | Git (approved docs) |
 ///| Test Results | `build/test-*.xml` | Per test run | Archived (not git) |
 ///
 ///\subsection platformrte_docs_CM_REFERENCE_document_template Document Template
@@ -342,10 +342,10 @@
 ///\subsection platformrte_docs_CM_REFERENCE_build_tools Build Tools
 ///| Tool | Version | Config File | Purpose |
 ///|------|---------|-------------|---------|
-///| CMake | 3.16+ | <a href="https://github.com/bula173/Platform_RTE/blob/master/CMakeLists.txt">CMakeLists.txt</a> | Build definition |
-///| C Compiler | C99 | <a href="https://github.com/bula173/Platform_RTE/tree/master/cmake">cmake/Toolchain-*.cmake</a> | Code translation |
-///| cppcheck | 2.21+ | <a href="https://github.com/bula173/Platform_RTE/blob/master/.cppcheck">.cppcheck</a> | MISRA analysis |
-///| Git | 2.x | <a href="https://github.com/bula173/Platform_RTE/blob/master/.gitignore">.gitignore</a> | Version control |
+///| CMake | 3.16+ | <a href="https://github.com/rbc-poc/Platform_RTE/blob/master/CMakeLists.txt">CMakeLists.txt</a> | Build definition |
+///| C Compiler | C99 | <a href="https://github.com/rbc-poc/Platform_RTE/tree/master/cmake">cmake/Toolchain-*.cmake</a> | Code translation |
+///| cppcheck | 2.21+ | <a href="https://github.com/rbc-poc/Platform_RTE/blob/master/.cppcheck">.cppcheck</a> | MISRA analysis |
+///| Git | 2.x | <a href="https://github.com/rbc-poc/Platform_RTE/blob/master/.gitignore">.gitignore</a> | Version control |
 ///
 ///\subsection platformrte_docs_CM_REFERENCE_cicd_github_actions CI/CD (GitHub Actions)
 ///```
@@ -362,12 +362,12 @@
 ///
 ///| Need | Document | File |
 ///|------|----------|------|
-///| **Build** | Build instructions | <a href="https://github.com/bula173/RBC_Test_Sim_Train/blob/master/README.md">README.md</a> |
-///| **Architecture** | Design rationale | <a href="https://github.com/bula173/Platform_RTE/tree/master/docs/architecture">docs/architecture/</a> |
-///| **Requirements** | All requirements | <a href="https://github.com/bula173/Platform_RTE/tree/master/docs/requirements">docs/requirements/SRS.dox</a> |
-///| **MISRA** | Compliance status | <a href="https://github.com/bula173/Platform_RTE/tree/master/docs">docs/MISRA_COMPLIANCE_REPORT.dox</a> |
+///| **Build** | Build instructions | <a href="https://github.com/rbc-poc/RBC_Test_Sim_Train/blob/master/README.md">README.md</a> |
+///| **Architecture** | Design rationale | <a href="https://github.com/rbc-poc/Platform_RTE/tree/master/docs/architecture">docs/architecture/</a> |
+///| **Requirements** | All requirements | <a href="https://github.com/rbc-poc/Platform_RTE/tree/master/docs/requirements">docs/requirements/SRS.dox</a> |
+///| **MISRA** | Compliance status | <a href="https://github.com/rbc-poc/Platform_RTE/tree/master/docs">docs/MISRA_COMPLIANCE_REPORT.dox</a> |
 ///| **CM Plan** | This template | \ref platformrte_docs_templates_03_CONFIGURATION_MANAGEMENT_PLAN "docs/templates/03_CONFIGURATION_MANAGEMENT_PLAN.dox" |
-///| **Build presets** | Standardized configs | <a href="https://github.com/bula173/Platform_RTE/blob/master/CMakePresets.json">CMakePresets.json</a> |
+///| **Build presets** | Standardized configs | <a href="https://github.com/rbc-poc/Platform_RTE/blob/master/CMakePresets.json">CMakePresets.json</a> |
 ///| **License** | Community Improvement | \ref platformrte_LICENSE "LICENSE.md" |
 ///| **Roadmap** | Future work | \ref platformrte_docs_ROADMAP "ROADMAP.dox" |
 ///
@@ -473,6 +473,6 @@
 ///
 ///Refer to:
 ///- Full plan: \ref platformrte_docs_templates_03_CONFIGURATION_MANAGEMENT_PLAN "Configuration Management Plan"
-///- Build help: <a href="https://github.com/bula173/RBC_Test_Sim_Train/blob/master/README.md">README.md</a>
-///- Architecture: <a href="https://github.com/bula173/Platform_RTE/tree/master/docs/architecture">ADRs</a>
+///- Build help: <a href="https://github.com/rbc-poc/RBC_Test_Sim_Train/blob/master/README.md">README.md</a>
+///- Architecture: <a href="https://github.com/rbc-poc/Platform_RTE/tree/master/docs/architecture">ADRs</a>
 ///- License: \ref platformrte_LICENSE "LICENSE.md"

@@ -968,8 +968,8 @@ Your operational procedures inherit Platform_RTE patterns.
 - Ensures: Code safety, no undefined behavior, deterministic
 
 **Platform_RTE Architecture**
-- <a href="https://github.com/bula173/Platform_RTE/tree/master/docs/architecture">ADR-001</a> through <a href="https://github.com/bula173/Platform_RTE/tree/master/docs/architecture">ADR-008</a>, then
-  <a href="https://github.com/bula173/Platform_RTE/tree/master/docs/architecture">ADR-016</a> through <a href="https://github.com/bula173/Platform_RTE/tree/master/docs/architecture">ADR-024</a>
+- <a href="https://github.com/rbc-poc/Platform_RTE/tree/master/docs/architecture">ADR-001</a> through <a href="https://github.com/rbc-poc/Platform_RTE/tree/master/docs/architecture">ADR-008</a>, then
+  <a href="https://github.com/rbc-poc/Platform_RTE/tree/master/docs/architecture">ADR-016</a> through <a href="https://github.com/rbc-poc/Platform_RTE/tree/master/docs/architecture">ADR-024</a>
   (ADR-009 through ADR-015 were never written - see ROADMAP.dox; this
   previously read "ADR-001 through ADR-010", which both overstated a
   contiguous ADR-009/ADR-010 that don't exist and understated everything

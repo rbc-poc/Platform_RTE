@@ -163,7 +163,7 @@ Example:
 
 To visualize this board in GitHub's native Project interface:
 
-1. Go to https://github.com/bula173/Platform_RTE/projects
+1. Go to https://github.com/rbc-poc/Platform_RTE/projects
 2. Click **New Project**
 3. Select **Table** or **Kanban** view
 4. Name: "RteFramework Roadmap"
@@ -182,7 +182,7 @@ This Markdown board serves as a quick reference; the GitHub Project provides vis
 
 - \ref platformrte_docs_ROADMAP "ROADMAP.dox" — Detailed roadmap with timelines
 - \ref platformrte_docs_FEATURE_EXPANSION "FEATURE_EXPANSION.dox" — Full feature specifications
-- [GitHub Issues](https://github.com/bula173/Platform_RTE/issues) — Issue discussions (#1–#16)
-- <a href="https://github.com/bula173/Platform_RTE/tree/master/docs/architecture">ADRs</a> — Architecture Decision Records (to be created)
+- [GitHub Issues](https://github.com/rbc-poc/Platform_RTE/issues) — Issue discussions (#1–#16)
+- <a href="https://github.com/rbc-poc/Platform_RTE/tree/master/docs/architecture">ADRs</a> — Architecture Decision Records (to be created)
 - \ref rte_srs "SRS" — Software Requirements Specification (to be updated)
 */

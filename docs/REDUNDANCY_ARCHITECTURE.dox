@@ -64,7 +64,7 @@ at load time.
    committed by the checkpoint alone (root `ISSUES.dox` ISS-048, open).
 
 The reference RBC's cycle, stage by stage, with what is compared and what bypasses the gate:
-[RBC_GP: Site redundancy and A/B agreement](https://github.com/bula173/RBC_GP/blob/master/docs/STANDBY_AND_SITE_LINK_ARCHITECTURE.dox),
+[RBC_GP: Site redundancy and A/B agreement](https://github.com/rbc-poc/RBC_GP/blob/master/docs/STANDBY_AND_SITE_LINK_ARCHITECTURE.dox),
 sections 4 and 6. See also `docs/architecture/ADR-034-checkpoint-signature-marks.dox`.
 
 \section platformrte_docs_REDUNDANCY_ARCHITECTURE_3_concepts 3. Concepts
@@ -141,7 +141,7 @@ Behaviour of the reference implementation:
   dispatcher confirmation (authenticated when a takeover key is configured); a dual ONLINE yields or raises an alarm; both STANDBY is a tie-break (WEST, or the channel
   whose A/B sibling is ONLINE). Every promotion waits until the A/B pair is ready, and A and B of a site must agree on
   the role (3 disagreeing cycles are a fault). Service view: ADR-040, "Service behaviour as built"; system view, end to
-  end: [RBC_GP: Site redundancy and A/B agreement](https://github.com/bula173/RBC_GP/blob/master/docs/STANDBY_AND_SITE_LINK_ARCHITECTURE.dox).
+  end: [RBC_GP: Site redundancy and A/B agreement](https://github.com/rbc-poc/RBC_GP/blob/master/docs/STANDBY_AND_SITE_LINK_ARCHITECTURE.dox).
 - **Promotion.** The application declares the state that must survive (`rte_state_transfer`). The reference RBC transfers
   sessions and the route/train database unconditionally on promotion.
 - **Standby computes or not.** Both sites run their full A/B group. In the reference RBC the standby observes but does not

@@ -61,7 +61,7 @@ cmake --install build --prefix .         # produces dist/<platform>/ for consume
 ```
 
 Cross-compilation targets and toolchain files: [docs/CROSS_COMPILATION.dox](docs/CROSS_COMPILATION.dox)
-and `platform/toolchains/`. Coding rules: [CLAUDE.md](https://github.com/bula173/Platform_RTE/blob/master/CLAUDE.md). Conformance evidence:
+and `platform/toolchains/`. Coding rules: [CLAUDE.md](https://github.com/rbc-poc/Platform_RTE/blob/master/CLAUDE.md). Conformance evidence:
 [docs/MISRA_COMPLIANCE_REPORT.dox](docs/MISRA_COMPLIANCE_REPORT.dox),
 [docs/COVERAGE_REPORT.dox](docs/COVERAGE_REPORT.dox), [docs/EN_50128_ALIGNMENT.dox](docs/EN_50128_ALIGNMENT.dox),
 [docs/SAFETY_APPLICATION_CONDITIONS.dox](docs/SAFETY_APPLICATION_CONDITIONS.dox).
